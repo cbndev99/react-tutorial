@@ -61,3 +61,27 @@ body {
   border-radius: 5px;
   margin: 0;
 }
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  border: 3px solid;
+  text-align: center;
+  background-color: hsl(185, 100%, 50%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.list-items {
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 55%);
+}
